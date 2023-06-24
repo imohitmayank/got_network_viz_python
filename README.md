@@ -12,3 +12,9 @@ Contents,
 
 - Directory
   1. **data:** contains Game of Thrones network data in csv format for the first 5 books
+
+# How to use
+1. [Recommended] : use a virtual environment to avoid conflicting with your main installation `python -m venv .venv`
+2. [Recommended] : activate the environnement : [ShellCommands] : `source ./.venv/bin/activate`
+3. Install packages : `pip install -r requirements.txt`
+4. Run the script : `python ./dash_app.py`
